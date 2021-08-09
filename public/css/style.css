@@ -1,0 +1,430 @@
+@font-face {
+    font-family: tokyo_bold;
+    src: url(../font/NightinTokyo-Bold.ttf);
+}
+@font-face {
+    font-family: tokyo;
+    src: url(../font/NightinTokyo.ttf);
+}
+@font-face {
+    font-family: tokyo_shadow;
+    src: url(../font/NightinTokyoShadow.ttf);
+}
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: 'tokyo_bold';
+}
+
+.nav-item {
+    font-family: 'tokyo';
+    border-bottom: 2px solid transparent;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #fff;
+    transition: 0.7s ease;
+}
+
+/* End Navbar */
+
+/* Button */
+
+.btn-button {
+    font-family: 'tokyo';
+    color: #e2edff;
+    background-color: #0a58ca;
+    border:1.5px solid transparent;
+}
+
+.btn-button:hover {
+    border:1.5px solid #e2edff;
+    background-color: #e2edff;
+    transition: 0.5s ease;
+    color: #0a58ca;
+}
+
+.btn-buy {
+    font-family: 'tokyo_bold';
+    color: #fff;
+    background-color: #0a58ca;
+    border-color: #0a58ca;
+    border:0.5px solid transparent;
+    letter-spacing: 1.5px;
+}
+
+.btn-buy:hover {
+    color: #0a58ca;
+    background-color: #e2edff;
+    border-color: #e2edff;
+    border:0.5px solid #e2edff;
+    transition: 0.5s ease;
+}
+
+.btn-rank {
+    font-family: 'tokyo';
+    font-size: 13px;
+    color: #fff;
+    background-color: #0a58ca;
+    border-color: #0a58ca;
+    border:0.5px solid transparent;
+    letter-spacing: 1px;
+}
+
+.btn-rank:hover {
+    color: #0a58ca;
+    background-color: #e2edff;
+    border-color: #e2edff;
+    border:0.5px solid #e2edff;
+    transition: 0.5s ease;
+}
+
+.btn-share {
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    background-color: #0a58ca;
+    border-color: #0a58ca;
+    border:0.5px solid transparent;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    width: 12rem;
+}
+
+.btn-share:hover {
+    color: #0a58ca;
+    background-color: #e2edff;
+    border-color: #e2edff;
+    border:0.5px solid #e2edff;
+    transition: 0.5s ease;
+}
+
+.list-group-item {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+.btn-navigation {
+    font-family: 'tokyo';
+    color: #000000;
+    background-color: transparent;
+    border: 1.5px solid transparent;
+}
+
+.btn-navigation:hover {
+    border: 1.5px solid transparent;
+    transition: 0.5s ease;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.btn-search {
+    font-family: 'Staatliches', cursive;
+    color: #e2edff;
+    background-color: #0a58ca;
+    border:1.5px solid transparent;
+}
+
+.btn-search:hover {
+    border:1.5px solid #e2edff;
+    background-color: #e2edff;
+    transition: 0.5s ease;
+    color: #0a58ca;
+}
+
+/* End Button */
+
+/* Jumbotron */
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+    background: url(../img/koisan.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.section_title {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-family: 'tokyo_bold';
+    letter-spacing: 4px;
+}
+
+h3.title {
+    font-family: 'tokyo_bold';
+    letter-spacing: 1px;
+}
+
+.lead {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+.desc {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+/* End Jumbotron */
+
+/* Collections */
+
+.collections {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collections::before {    
+    content: "";
+    background-color: #e2edff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.9;
+}
+
+.search {
+    position: relative;
+    color: #000;  
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+.text-collections {
+    color: #000;  
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+.dropdown {
+    color: #e2edff;  
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+.dropdown button, .dropdown-item {
+    font-size: 12px;
+}
+
+/* End Collections */
+
+/* Rewards */
+
+.rewards_community h2, h3 {
+    color: #e2edff;  
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+.rewards_community p {
+    font-size: 12px;
+    color: #e2edff;
+}
+
+/* End Rewards */
+
+/* Description */
+
+.description h1, .pets h1, .pets_energy h1{
+    font-family: 'tokyo_bold';
+    letter-spacing: 4px;
+}
+
+.card {
+    cursor:pointer;
+}
+
+.card:hover {
+    background-color: #e2edff;
+    transition: 0.6s ease;
+}
+
+.card-text {
+    font-family: 'tokyo';
+    letter-spacing: 2px;
+}
+
+.captions h2, .captionsRank h2 {
+    position: relative;
+    color: #000;  
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+.captions p {
+    position: relative;
+    color: #000;  
+}
+
+.captionsRank p {
+    color: #000000;
+    font-size: 13px;
+}
+
+.captionsRank small {
+    color: #000000;
+    font-size: 12px;
+}
+
+/* End Description */
+
+/* Pre-Sale */
+
+.pre_sale, .pets_energy {
+    background-color: #e2edff;
+}
+
+.bonus h1, h2 {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+/* End Pre-Sale */
+
+/* Introduction */
+
+.btn-introduction {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    margin: 0 1rem;
+    border:0.3px solid #0a58ca;
+}
+
+.btn-introduction:hover {
+    border:0.3px solid #0a58ca;
+}
+
+.introduction h1, .game_details h1{
+    font-family: 'tokyo_bold';
+    letter-spacing: 1px;
+}
+
+/* End Introduction */
+
+/* Game Details */
+
+.game_details, .carosel, .share {
+    background-color: #e2edff;
+}
+
+.content1 {
+    position: relative; 
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content1::before {    
+    content: "";
+    background-image: url(../img/bali1.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+.content2 {
+    position: relative; 
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content2::before {    
+    content: "";
+    background-image: url(../img/bali2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+/* End Game Details */
+
+/* Pre-Register */
+
+.founder h2{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+.frame {
+    width: 500px;
+}
+
+@media screen and (max-width: 992px) {
+    .koisan, .tancho, .kohaku, .shiro, .sanke {
+        visibility: hidden;
+    }
+
+    .buy {
+        display:none;
+    }
+
+    .frame {
+        width: 300px;
+    }
+
+    .bonus {
+        text-align: center;
+    }
+    
+}
+
+.bg-sanke {
+    background-color: #332c2b;
+    background-image: linear-gradient(to right, #332c2b, #4b2e2b);
+}
+
+.pre_register {
+    background-color: #e2edff;
+}
+
+.register h2{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+/* End Pre-Register */
+
+/* 745e73 */
+
+/* Footer */
+
+.join h2, .join h3{
+    font-family: 'tokyo_bold';
+    letter-spacing: 4px;
+}
+
+.terms_condition {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.kohaku, .shiro {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/* End Footer */
